@@ -14,12 +14,6 @@ st.set_page_config(
 # ---------------- MAIN PAGE ----------------
 st.title("Selvam P")
 
-st.write("""
-I am an experienced professional with **4.8 years in Pharmacovigilance**, analyzing clinical safety data, 
-and now transitioning into **Data Analysis and Visualization**.  
-I combine domain knowledge in **healthcare and patient safety** with strong skills in **Python, data processing, and visualization** to extract actionable insights from complex datasets.
-""")
-
 # ---------------- SIDEBAR ----------------
 st.sidebar.header("📌 Navigation")
 section = st.sidebar.radio(
@@ -31,8 +25,9 @@ section = st.sidebar.radio(
 if section == "About Me":
     st.subheader("About Me")
     st.write("""
-I am an experienced professional with **4 years in Drug Safety Data Management**, analyzing clinical safety data of medicines and adverse events.  
-Now, I am transitioning into **Data Analysis**, leveraging Python and visualization tools to extract insights from healthcare and clinical datasets.
+I am an experienced professional with **4.8 years in Pharmacovigilance**, analyzing clinical safety data, 
+and now leveraging my skills into **Data Analysis and Visualization**.  
+I combine domain knowledge in **healthcare and patient safety** with strong skills in **Python, data processing, and visualization** to extract actionable insights from complex datasets.
 
 **Education:**  
 - Bachelor’s degree in Industrial BioTechnology from GCT, Coimbatore 
