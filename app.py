@@ -11,13 +11,13 @@ st.set_page_config(
     layout="wide"
 )
 
-# ---------------- HEADER ----------------
-st.title("  Selvam P –  Portfolio")
-st.subheader("Clinical Data Analyst| Safety Data Management |Pharmacovigilance")
+# ---------------- MAIN PAGE ----------------
+st.title("Selvam Pachimuthu - Aspiring Data Analyst with Healthcare Expertise")
 
 st.write("""
-Experienced Pharmacovigilance professional handling **Clinical safety data of medicines, ensuring patients safety by doing drug data analysis  **.
-This portfolio demonstrates my skills in **Clinical data handling, Python, Data Analysis, Visualization, and Healthcare Data**.
+I am an experienced professional with **4 years in Pharmacovigilance**, analyzing clinical safety data, 
+and now transitioning into **Data Analysis and Visualization**.  
+I combine domain knowledge in **healthcare and patient safety** with strong skills in **Python, data processing, and visualization** to extract actionable insights from complex datasets.
 """)
 
 # ---------------- SIDEBAR ----------------
