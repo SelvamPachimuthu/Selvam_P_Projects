@@ -12,10 +12,10 @@ st.set_page_config(
 )
 
 # ---------------- MAIN PAGE ----------------
-st.title("Selvam Pachimuthu - Aspiring Data Analyst with Healthcare Expertise")
+st.title("Selvam P")
 
 st.write("""
-I am an experienced professional with **4 years in Pharmacovigilance**, analyzing clinical safety data, 
+I am an experienced professional with **4.8 years in Pharmacovigilance**, analyzing clinical safety data, 
 and now transitioning into **Data Analysis and Visualization**.  
 I combine domain knowledge in **healthcare and patient safety** with strong skills in **Python, data processing, and visualization** to extract actionable insights from complex datasets.
 """)
@@ -29,13 +29,20 @@ section = st.sidebar.radio(
 
 # ---------------- ABOUT ME ----------------
 if section == "About Me":
-    st.header("👤 About Me")
+    st.subheader("About Me")
     st.write("""
-- 💼 4+ years experience in **Pharmacovigilance (Clinical Safety Data)**
-- 🏥 Worked with clinical data, data cleaning, query generation, drug safety data, literature review, case processing, signal and risk detection
-- 📈 Transitioning into **Clinical data Analyst**
-- 🎯 Interested in Clinical data management, Healthcare, Real-World Evidence & Analytics
-    """)
+I am an experienced professional with **4 years in Drug Safety Data Management**, analyzing clinical safety data of medicines and adverse events.  
+Now, I am transitioning into **Data Analysis**, leveraging Python and visualization tools to extract insights from healthcare and clinical datasets.
+
+**Education:**  
+- Bachelor’s degree in Industrial BioTechnology from GCT, Coimbatore 
+
+**Experience Highlights:**  
+- Handled clinical safety data of medicines  
+- Managed adverse events reporting and analysis  
+- Monitored patient and drug safety  
+- Built reports and dashboards to support decision-making
+""")
 
 # ---------------- SKILLS ----------------
 elif section == "Skills":
